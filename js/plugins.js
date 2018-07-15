@@ -67,5 +67,8 @@ $(function () {
         */
         console.log($('.plan').offset().top + " and the fuck shit is " + $('.learn').offset().top + " and this is  " + $(window).scrollTop());
     });
-    
+    // any anchor in document will be prevent default 
+    $('a').click(function (e) {
+        e.preventDefault();
+    });
 });
