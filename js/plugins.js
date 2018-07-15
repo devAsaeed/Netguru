@@ -21,8 +21,8 @@ $(function () {
                     top: '1260px',
                     boxShadow: 'none'
                 });
-                $('.navbar').css('background-color', 'rgb(138, 113, 196)');
-                $('.navbar .btn-nav').css('background-color', 'rgb(138, 113, 196)');
+                $('.navbar').css('background-color', 'rgba(117, 64, 238, 0.6)');
+                $('.navbar .btn-nav').css('background-color', 'rgba(117, 64, 238, 0.6)');
             
             } else if ($(window).scrollTop() >= $('.learn').offset().top) {
                 $(this).animate({
